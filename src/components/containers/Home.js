@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
-import Header from './header/Header'
+import Header from '../header/Header'
 
 class Home extends Component {
     render() {

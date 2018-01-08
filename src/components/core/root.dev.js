@@ -2,7 +2,7 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import { Switch } from 'react-router'
 import { ConnectedRouter } from 'react-router-redux'
-import Routes from './routes'
+import Routes from '../routes'
 import DevTool from '../../devtool'
 
 export default ({ store, history }) => (
