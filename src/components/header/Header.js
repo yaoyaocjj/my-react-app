@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import {Grid, Row, Col } from 'react-bootstrap'
 import './header.css'
+import Avatar from "../avatar/Avatar";
+import SearchBox from "./SearchBox";
 
 export default class Header extends Component {
     render() {
@@ -16,6 +18,13 @@ export default class Header extends Component {
                         </Col>
                     </Row>
                 </Grid>
+                <div className="avatar-container">
+                    <span className="avatar-logo">PIPPIN & HALL</span>
+                    <div className="avatar-detail">
+                        <Avatar/>
+                    </div>
+                </div>
+                <SearchBox />
             </div>
         )
     }
