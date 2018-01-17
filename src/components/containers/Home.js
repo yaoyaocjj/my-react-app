@@ -3,17 +3,16 @@ import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import Header from '../header/Header'
 import Footer from "../footer/Footer";
-import Properties from "../properties/Properies";
+import PropertyList from "../propertyList/PropertyList";
+import { bindActionCreators } from 'redux';
 
 class Home extends Component {
     render() {
-        return (
-                <div>
-                    <Header />
-                    <Properties />
-                    <Footer />
-                </div>
-        )
+        return [
+            <Header key={'header'}/>,
+            <PropertyList key={'property'} />,
+            <Footer key={'footer'} />
+        ]
     }
 }
 
@@ -21,4 +20,8 @@ const mapStateToProps = state => ({
     ui: state.ui
 })
 
-export default withRouter(connect(mapStateToProps)(Home))
+const mapDispatchToProps = dispatch => ({
+    actions: bindActionCreators({}, dispatch)
+});
+
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Home))

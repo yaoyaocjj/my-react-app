@@ -10,7 +10,7 @@ export default class Header extends Component {
             <div className="header">
                 <Grid>
                     <Row className="show-grid">
-                        <Col xs={12} md={12} sm={6}>
+                        <Col xs={12} md={12} sm={12}>
                             <div className="crumbs">
                                 <span><a href="##" className="main-rea">realestate.com.ru</a></span>
                                 <span><a href="##" className="main-rea">1form</a></span>

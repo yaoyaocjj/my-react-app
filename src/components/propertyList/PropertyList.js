@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Grid, Row, Col } from 'react-bootstrap'
 import properties from './propertiesConfig'
 import Property from "./Property";
-import './properties.css'
+import './propertyList.css'
 
 export default class Properties extends Component {
     render() {
