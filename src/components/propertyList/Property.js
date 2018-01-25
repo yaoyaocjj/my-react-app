@@ -29,8 +29,8 @@ export default class Property extends Component {
                             </Col>
                             <Col md={3} sm={6} xs={12}>
                                 <div className="price-info">
-                                    <div className="price">{property.price}</div>
-                                    <div className="bond">Bond: {property.bond}</div>
+                                    <div className="price">{`$`+`${property.price}`+`pw`}</div>
+                                    <div className="bond">Bond: {`${property.bond}`+`$`}</div>
                                     <div className="available">Available: {property.available}</div>
                                 </div>
                             </Col>

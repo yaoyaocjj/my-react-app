@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 import {Grid, Row, Col } from 'react-bootstrap'
-import properties from './propertiesConfig'
-import Property from "./Property";
+import Property from "./Property"
 import './propertyList.css'
 
 export default class Properties extends Component {
+    constructor(props) {
+        super(props)
+    }
+
     render() {
         return (
                 <div className="properties">
@@ -33,7 +36,7 @@ export default class Properties extends Component {
                         </Row>
                     </Grid>
                     <Grid>
-                        { properties.map((property) => (
+                        { this.props.properties && this.props.properties.map((property) => (
                                 <Property property={property} key={property.ID}/>
                         )) }
                     </Grid>
