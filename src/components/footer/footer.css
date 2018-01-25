@@ -1,0 +1,8 @@
+.footer {
+  font-size: 14px;
+  color: #ffffff; }
+  .footer .logo {
+    height: 50px;
+    line-height: 50px;
+    background-color: #333f48;
+    text-align: center; }

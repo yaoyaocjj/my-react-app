@@ -1,0 +1,25 @@
+.properties {
+  color: #333f48;
+  background-color: #f0f2f5;
+  padding-top: 30px; }
+  .properties .nav .title {
+    padding-bottom: 25px; }
+    .properties .nav .title h1 {
+      font-size: 30px; }
+    .properties .nav .title span {
+      font-weight: 100; }
+  .properties .filter {
+    text-align: right;
+    padding-top: 25px; }
+    .properties .filter button {
+      margin-right: 15px;
+      height: 40px;
+      width: 90px;
+      border-radius: 5px;
+      font-size: 15px; }
+    .properties .filter label {
+      margin-right: 10px; }
+    .properties .filter select {
+      height: 40px;
+      width: 215px;
+      color: #6f787f; }

@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'iconfont';
+  /* project id 425892 */
+  src: url("//at.alicdn.com/t/font_425892_x6xtolmejexw29.eot");
+  src: url("//at.alicdn.com/t/font_425892_x6xtolmejexw29.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_425892_x6xtolmejexw29.woff") format("woff"), url("//at.alicdn.com/t/font_425892_x6xtolmejexw29.ttf") format("truetype"), url("//at.alicdn.com/t/font_425892_x6xtolmejexw29.svg#iconfont") format("svg"); }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 15px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.property {
+  color: #333f48;
+  background-color: #ffffff;
+  margin-top: 20px;
+  border: 1px solid #f0f2f5;
+  box-shadow: 2px 2px 2px #dcdee0; }
+  .property .show-grid {
+    height: 150px;
+    margin-bottom: 0; }
+    .property .show-grid .thumbnail {
+      padding-left: 0; }
+      .property .show-grid .thumbnail .avatar-container {
+        position: absolute;
+        bottom: 5px;
+        left: 10px; }
+      .property .show-grid .thumbnail .property-image {
+        width: 100%;
+        height: 100%; }
+    .property .show-grid .detail {
+      padding-top: 8px; }
+      .property .show-grid .detail .address {
+        font-size: 20px; }
+      .property .show-grid .detail .address-detail {
+        font-weight: 100;
+        font-size: 15px;
+        margin-bottom: 5px; }
+      .property .show-grid .detail .type {
+        font-weight: 100;
+        font-size: 13px;
+        color: #7f8b96;
+        margin-bottom: 2px; }
+      .property .show-grid .detail .info {
+        margin-bottom: 8px; }
+        .property .show-grid .detail .info .item {
+          margin-right: 8px; }
+        .property .show-grid .detail .info span {
+          font-weight: 100; }
+      .property .show-grid .detail .id {
+        font-size: 12px;
+        font-weight: 100;
+        color: #b1b8bf; }
+    .property .show-grid .price-info {
+      padding-top: 8px;
+      text-align: right;
+      margin-right: 15px; }
+      .property .show-grid .price-info .price {
+        font-size: 20px;
+        margin-bottom: 8px; }
+      .property .show-grid .price-info .bond, .property .show-grid .price-info .available {
+        font-weight: 100;
+        font-size: 15px;
+        margin-bottom: 5px; }
+    .property .show-grid .application-col {
+      border-left: 2px solid #e9ebed; }
+      .property .show-grid .application-col .application {
+        padding-left: 15px; }
+        .property .show-grid .application-col .application .applications {
+          color: #0e89df;
+          padding: 20px 0 15px;
+          border-bottom: 1px solid #e9ebed; }
+        .property .show-grid .application-col .application .shortlisted, .property .show-grid .application-col .application .total {
+          padding: 10px 0 5px;
+          font-size: 15px;
+          font-weight: 100; }
+        .property .show-grid .application-col .application .total {
+          padding-top: 0; }
