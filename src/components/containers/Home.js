@@ -19,7 +19,7 @@ class Home extends Component {
     }
 
     handleFilterProperties(searchValue) {
-        this.props.actions.dispatch(filterProperties(searchValue));
+        this.props.actions.filterProperties(searchValue);
     }
 
     render() {

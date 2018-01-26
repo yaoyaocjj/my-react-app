@@ -17,7 +17,7 @@ const filterPropertiesType =  searchValue => ({
     searchValue: searchValue
 });
 
-export const filterProperties = (body, headOptions={}) => dispatch => {
-    dispatch(filterPropertiesType)
+export const filterProperties = (searchValue) => dispatch => {
+    dispatch(filterPropertiesType(searchValue))
 };
 
