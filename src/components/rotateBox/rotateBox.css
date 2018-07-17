@@ -1,0 +1,36 @@
+@keyframes rotate {
+  100% {
+    transform: rotateY(360deg) rotateX(360deg); } }
+
+.rotate-box {
+  height: 240px;
+  width: 240px;
+  margin: 250px auto;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 20s ease 0s normal none infinite running; }
+  .rotate-box .face {
+    backface-visibility: hidden;
+    background-color: #fae48c;
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    opacity: 0.6; }
+  .rotate-box .one {
+    background-color: #fae48c;
+    transform: rotateX(90deg) translateZ(120px); }
+  .rotate-box .two {
+    background-color: #9900CC;
+    transform: translateZ(120px); }
+  .rotate-box .three {
+    transform: rotateY(90deg) translateZ(120px);
+    background-color: yellow; }
+  .rotate-box .four {
+    transform: rotateY(180deg) translateZ(120px);
+    background-color: green; }
+  .rotate-box .five {
+    transform: rotateY(-90deg) translateZ(120px);
+    background-color: greenyellow; }
+  .rotate-box .six {
+    transform: rotateX(-90deg) translateZ(120px);
+    background-color: black; }
