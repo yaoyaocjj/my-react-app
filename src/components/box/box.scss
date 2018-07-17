@@ -1,0 +1,29 @@
+.box{
+  position: relative;
+  width: 240px;
+  height: 240px;
+  margin: 150px auto;
+
+  .face {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+  }
+
+  .back {
+    background-color: #0e89df;
+    transform: rotate(45deg) skew(-15deg, -15deg);
+  }
+
+  .left {
+    background-color: #fae48c;
+    transform: rotate(15deg) skew(15deg, 15deg) translateX(-120px) translateY(240px);
+  }
+
+  .right {
+    background-color: #9900CC;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translateX(120px) translateY(240px);
+  }
+
+
+}
